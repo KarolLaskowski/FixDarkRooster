@@ -1,0 +1,12 @@
+/* kto !important wojuje, od !important ginie */
+
+.form-dark-theme .html-editor .rooster-wrapper div.rooster-editor.edit-mode,
+div.lean-rooster.rooster-editor.propagate-keydown-event.text-element.edit-mode h1,
+div.lean-rooster.rooster-editor.propagate-keydown-event.text-element.edit-mode ol{
+    background-color: var(--background-color,rgba(255, 255, 255, 1)) !important;
+    color: var(--text-primary-color,rgba(0, 0, 0, .9)) !important;
+}
+
+.html-editor .rooster-wrapper .rooster-editor.view-mode~.rooster-command-bar {
+    opacity: 0;
+}
